@@ -10,7 +10,7 @@ while toContinue:
     n2 = float(input("What is the second number? "))
     calculation = calculate(n1, operator, n2)
     print(f"{n1} {operator} {n2} = {calculation}")
-    toContinue = input(f"Type 'y' to continue calculating with {n2}, or type 'n' to start a new calculation: ")
+    toContinue = input(f"Type 'y' to continue calculating with {calculation}, or type 'n' to start a new calculation: ")
     if toContinue == 'y':
         n1 = calculation
     elif toContinue == 'n':
