@@ -12,7 +12,6 @@ while toContinue:
     print(f"{n1} {operator} {n2} = {calculation}")
     toContinue = input(f"Type 'y' to continue calculating with {n2}, or type 'n' to start a new calculation: ")
     if toContinue == 'y':
-        n1 = n2
-        n2 = 0
+        n1 = calculation
     elif toContinue == 'n':
         toContinue = False
